@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+.container{
+   background-color: #e4f9f5;
+   max-width: 1000px;
+   padding: 20px;
+   margin: 0 auto;
+    
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+float: left;
+padding: 20px;
+width: 35%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.link a{
+    text-decoration: none;
+    color:#11999e;
+    float:right;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border:solid black 3px ;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*---------------------
+personal section start
+----------------------*/
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+.hr1{
+   border: solid black;
+   border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+/*---------------------
+Education section start
+----------------------*/
+}
+.edu-information-left{
+float: left;
+width: 45%;
+}
+.edu-information-right{
+float: right;
+width: 45%;
+}
+/*---------------------
+Footer section start
+----------------------*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+}
+.bottom-container a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.oyes{
+    color: white;
+    margin-top: 8px;
+}
